@@ -3,7 +3,7 @@ index 25a85b9..cd79325 100644
 --- a/data/net.gwyddion.Gwyddion.appdata copy.xml	
 +++ b/data/net.gwyddion.Gwyddion.appdata.xml
 @@ -32,4 +32,8 @@
-       <release version="2.66" date="2024-05-24" type="stable" />
+       <release version="2.67" date="2024-11-11" type="stable" />
    </releases>
    <url type="homepage">http://gwyddion.net/</url>
 +  <developer id="net.gwyddion">
