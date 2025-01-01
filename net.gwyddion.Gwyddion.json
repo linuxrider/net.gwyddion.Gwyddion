@@ -160,6 +160,10 @@
                 {
                     "type": "patch",
                     "path": "appstream.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "gnome47-runtime.patch"
                 }
             ],
             "post-install": [
