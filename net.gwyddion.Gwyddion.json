@@ -160,6 +160,10 @@
                 {
                     "type": "patch",
                     "path": "appstream.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "sort_deprecation.patch"
                 }
             ],
             "post-install": [

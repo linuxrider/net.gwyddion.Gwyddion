@@ -1,0 +1,11 @@
+--- a/libprocess/triangulation_orig.c	2025-01-01 19:37:43.624690401 +0100
++++ b/libprocess/triangulation.c	2025-01-01 19:38:19.151474993 +0100
+@@ -2825,7 +2825,7 @@
+          * for the sorting to avoid extra data structures.  XXX: Dirty. */
+         tmplen = triangulation->blen;
+         triangulation->blen = i;
+-        g_qsort_with_data(group.data, group.len, sizeof(guint),
++        g_sort_array(group.data, group.len, sizeof(guint),
+                           compare_vneighbours_ccw, triangulation);
+         triangulation->blen = tmplen;
+ 
